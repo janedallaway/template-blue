@@ -1,4 +1,4 @@
-#sidebar {
+.right-side {
 	float: right;
 	width: 270px;
 	border: 1px solid silver;
@@ -11,14 +11,14 @@
 	box-shadow: 0 1px 2px rgba(0,0,0,.15);
 	}
 
-#sidebar p {
+.right-side p {
 	font-size: small;
 	padding-right: 0.5em;
 	margin-left: 1em;
 
 }
 
-#sidebar h1 {
+.right-side h1 {
 	font-size: medium;
 	font-weight: thick;
 	color: black;
@@ -26,7 +26,7 @@
 	margin-bottom: 0.1em;
 }
 
-#sidebar h2 {
+.right-side h2 {
 	font-size: medium;
 	font-weight: thick;
 	color: black;
@@ -34,18 +34,18 @@
 	margin-bottom: 0.1em;
 }
 
-#sidebar ul, ul {
+.right-side ul, ul {
 	list-style: square;
 	margin: 0 0 18px 25px;
 }
 
-#sidebar li, .archive li {
+.right-side li, .archive li {
 	margin-left: 1em;
 	font-size: small;
 	color: black;
 }
 
-#sidebar img {
+.right-side img {
 	display: block;
     	margin-left: auto;
     	margin-right: auto
@@ -112,7 +112,7 @@ ul.posts, div.post
 	margin: 0 0 18px 25px;
 }
 
-.content 
+.left-side 
 {
 	width: 620px;
 	padding-right: 20px;

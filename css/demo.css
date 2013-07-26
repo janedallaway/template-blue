@@ -1,161 +1,130 @@
-.right-side 
-{
-	float: right;
-	width: 270px;
-	border: 1px solid silver;
-	background-color: white;
-	-webkit-border-radius: 2px 2px 6px 6px;
-	-moz-border-radius:  2px 2px 6px 6px;
-	border-radius: 2px 2px 6px 6px;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-	box-shadow: 0 1px 2px rgba(0,0,0,.15);
-	color:#666666;	
+.right-side {
+    display: inline;
+    float: right;
+    width: 270px;
+    border: 1px solid silver;
+    background-color: white;
+    color:#666666;
+    -webkit-border-radius: 2px 2px 6px 6px;
+    -moz-border-radius: 2px 2px 6px 6px;
+    border-radius: 2px 2px 6px 6px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
 }
-
-.right-side p 
-{
-	font-size: small;
-	padding-right: 0.5em;
-	margin-left: 1em;
+.right-side p {
+    font-size: small;
+    padding-right: 0.5em;
+    margin-left: 1.5em;
 }
-
-.right-side h1 
-{
-	font-size: large;
-	font-weight: thick;
-	color: black;
-	margin-left: 1em;
-	margin-bottom: 0.1em;
+.right-side h1 {
+    font-size: large;
+    font-weight: thick;
+    color: #666666;
+    padding-right: 0.5em;
+    margin-left: 1.75em;
 }
-
-.right-side h2 
-{
-	font-size: medium;
-	font-weight: thick;
-	color: black;
-	margin-left: 1em;
-	margin-bottom: 0.1em;
+.right-side h2 {
+    font-size: medium;
+    font-weight: thick;
+    color: #666666;
+    padding-right: 0.5em;
+    margin-left: 1.5em;
 }
-
-.right-side ul, ul 
-{
-	list-style: square;
-	margin: 0 0 18px 25px;
+.right-side ul li {
+    list-style-type: none;
+    padding-right: 0.5em;
+    margin-left: 2em;
 }
-
-.right-side li, .archive li 
-{
-	margin-left: 1em;
-	font-size: small;
-	color: black;
+.archive li {
+    margin-left: 1em;
+    font-size: small;
+    color: black;
 }
-
-.right-side img
-{
-	display: block;
-    	margin-left: auto;
-    	margin-right: auto
+.right-side img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-
- /* Override some defaults */
-html, body 
-{
-        background-color: #999999;
-        padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
-        color:#666666;	
+/* Override some defaults */
+ html, body {
+    background-color: #999999;
+    padding-top: 40px;
+    /* 40px to make the container go all the way to the bottom of the topbar */
+    color:#666666;
 }
-
-body 
-{
-        padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
-        color:#666666;
-	font: small Tahoma, Geneva, sans-serif;
+body {
+    padding-top: 40px;
+    /* 40px to make the container go all the way to the bottom of the topbar */
+    color:#666666;
+    font: small Tahoma, Geneva, sans-serif;
 }
-
-.container > footer p 
-{
-	text-align: center; /* center align it with the container */
-	border-top: none;
+.container > footer p {
+    text-align: center;
+    /* center align it with the container */
+    border-top: none;
 }
-
 /* The white background content wrapper */
-.container > .content 
-{	
-	background-color: white;	
-        padding: 20px;
-        margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
-        -webkit-border-radius: 0 0 6px 6px;
-        -moz-border-radius: 0 0 6px 6px;
-        border-radius: 0 0 6px 6px;
-        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-        -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-        box-shadow: 0 1px 2px rgba(0,0,0,.15);
+ .container > .content {
+    background-color: white;
+    padding: 20px;
+    margin: 0 -20px;
+    /* negative indent the amount of the padding to maintain the grid system */
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
 }
-
-.container > footer p 
-{
-	text-align: center; /* center align it with the container */	
+.container > footer p {
+    text-align: center;
+    /* center align it with the container */
 }
-
-.container li
-{
-	color: #666666;
+.container li {
+    color: #666666;
 }
-
 /* Page header tweaks */
-.page-header 
-{
-        background-color: white;
+ .page-header {
+    background-color: white;
 }
-
-.topbar .btn 
-{
-        border: 0;
+.topbar .btn {
+    border: 0;
 }
-
-.topbar-inner, .topbar .fill 
-{
-	background-color:#336699;
-	background-repeat: repeat-x;
-	background-repeat-x: repeat;
-	background-repeat-y: no-repeat;
+.topbar-inner, .topbar .fill {
+    background-color:#336699;
+    background-repeat: repeat-x;
 }
-
-.topbar a 
-{
-	color: #white;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+.topbar a {
+    color: #white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
-
-h2
-{
-	color: #666666;
+h2 {
+    color: #666666;
 }
-
-h3
-{
-	color: #666666;
+h3 {
+    color: #666666;
 }
-
-
-ul.posts, div.post  
-{
-	margin: 0 0 18px 25px;
+ul.posts, div.post {
+    margin: 0 0 18px 25px;
 }
-
-.left-side 
-{
-	width: 620px;
-	padding-right: 20px;
-	padding-bottom: 1em;
-	height: 100%;
+.left-side {
+    width: 620px;
+    padding-right: 20px;
+    padding-bottom: 1em;
+    padding-top:0em;
+    background-color: white;
+    border: 1px solid silver;
+    -webkit-border-radius: 2px 2px 6px 6px;
+    -moz-border-radius: 2px 2px 6px 6px;
+    border-radius: 2px 2px 6px 6px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
 }
-
-a 
-{
-	color: #336699;
-	text-decoration: none;
-	line-height: inherit;
-	font-weight: inherit;
+a {
+    color: #336699;
+    text-decoration: none;
+    line-height: inherit;
+    font-weight: inherit;
 }

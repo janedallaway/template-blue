@@ -141,3 +141,8 @@ a {
 .topbar div > ul a, .nav a {
  color: #ffffff;
 }
+
+.topbar div > ul .active > a, .nav .active > a {
+  background-color: white;
+  background-color: #336699;
+}

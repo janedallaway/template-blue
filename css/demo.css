@@ -1,6 +1,7 @@
 <!-- colours based on http://www.colorcombos.com/color-schemes/40/ColorCombo40.html -->
 
-.right-side {
+.right-side 
+{
 	float: right;
 	width: 270px;
 	border: 1px solid silver;
@@ -13,15 +14,17 @@
 	box-shadow: 0 1px 2px rgba(0,0,0,.15);
 	color:#666666;
 	font: medium font-family: Tahoma, Geneva, sans-serif;
-	}
+}
 
-.right-side p {
+.right-side p 
+{
 	font-size: small;
 	padding-right: 0.5em;
 	margin-left: 1em;
 }
 
-.right-side h1 {
+.right-side h1 
+{
 	font-size: large;
 	font-weight: thick;
 	color: black;
@@ -29,7 +32,8 @@
 	margin-bottom: 0.1em;
 }
 
-.right-side h2 {
+.right-side h2 
+{
 	font-size: medium;
 	font-weight: thick;
 	color: black;
@@ -37,18 +41,21 @@
 	margin-bottom: 0.1em;
 }
 
-.right-side ul, ul {
+.right-side ul, ul 
+{
 	list-style: square;
 	margin: 0 0 18px 25px;
 }
 
-.right-side li, .archive li {
+.right-side li, .archive li 
+{
 	margin-left: 1em;
 	font-size: small;
 	color: black;
 }
 
-.right-side img {
+.right-side img
+{
 	display: block;
     	margin-left: auto;
     	margin-right: auto
@@ -90,6 +97,11 @@ body
 .container > footer p 
 {
 	text-align: center; /* center align it with the container */	
+}
+
+.container li
+{
+	color: #666666;
 }
 
 /* Page header tweaks */
@@ -147,9 +159,4 @@ a
 	text-decoration: none;
 	line-height: inherit;
 	font-weight: inherit;
-}
-
-li
-{
-	color: #666666;
 }

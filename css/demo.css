@@ -22,8 +22,7 @@
     font-size: large;
     font-weight: thick;
     color: #666666;
-    padding-right: 0.5em;
-    margin-left: 1.75em;
+    text-align: center;
 }
 .right-side h2 {
     font-size: medium;
@@ -31,11 +30,10 @@
     color: #666666;
     padding-right: 0.5em;
     margin-left: 1.5em;
+    text-align: center;
 }
 .right-side ul li {
-    list-style-type: none;
-    padding-right: 0.5em;
-    margin-left: 2em;
+    list-style-type: none;        
 }
 .right-side img {
     display: block;

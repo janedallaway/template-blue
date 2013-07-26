@@ -105,3 +105,15 @@ ul.posts, div.post
 {
 	margin: 0 0 18px 25px;
 }
+
+.content 
+{
+	width: 620px;
+	padding-right: 20px;
+	padding-bottom: 1em;
+}
+
+.container > footer p 
+{
+	text-align: center; /* center align it with the container */
+}

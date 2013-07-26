@@ -1,5 +1,5 @@
 /* right side panel*/
-.right-side {
+ .right-side {
     display: inline;
     float: right;
     width: 270px;
@@ -43,7 +43,7 @@
     margin-right: auto;
 }
 /* left hand side */
-.left-side {
+ .left-side {
     width: 620px;
     padding-right: 20px;
     padding-bottom: 1em;
@@ -57,24 +57,22 @@
     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
     box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
 }
-
-
 /* archive stuff */
-.archive li {
+ .archive li {
     margin-left: 1em;
     font-size: small;
     color: black;
 }
- /* Override some defaults */
+/* Override some defaults */
  html, body {
-    background-color: #999999;    
+    background-color: #999999;
 }
 body {
     color:#666666;
     font: small Tahoma, Geneva, sans-serif;
 }
 /* general stuff */
-h2 {
+ h2 {
     color: #666666;
 }
 h3 {
@@ -83,18 +81,14 @@ h3 {
 ul.posts, div.post {
     margin: 0 0 18px 25px;
 }
-
 a {
     color: #336699;
     text-decoration: none;
     line-height: inherit;
     font-weight: inherit;
 }
-
-
 /* container stuff */
-
-.container > footer p {
+ .container > footer p {
     text-align: center;
     /* center align it with the container */
     border-top: none;
@@ -123,7 +117,6 @@ a {
 .container li {
     color: #666666;
 }
-
 /* Page header */
  .page-header {
     background-color: white;

@@ -53,7 +53,7 @@
  /* Override some defaults */
 html, body 
 {
-        background-color: #708090;
+        background-color: #999999;
 }
 
 body 
@@ -89,7 +89,7 @@ body
 /* Page header tweaks */
 .page-header 
 {
-        background-color: #f5f5f5;
+        background-color: #999999;
         padding: 20px 20px 10px;
         margin: -20px -20px 20px;
 }
@@ -101,7 +101,7 @@ body
 
 .fill
 {
-	background-color:#191970;
+	background-color:#336699;
 	background-repeat: repeat-x;
 	background-repeat-x: repeat;
 	background-repeat-y: no-repeat;

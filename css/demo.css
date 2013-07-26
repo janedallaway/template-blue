@@ -1,3 +1,4 @@
+/* right side panel*/
 .right-side {
     display: inline;
     float: right;
@@ -36,27 +37,63 @@
     padding-right: 0.5em;
     margin-left: 2em;
 }
-.archive li {
-    margin-left: 1em;
-    font-size: small;
-    color: black;
-}
 .right-side img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-/* Override some defaults */
+/* left hand side */
+.left-side {
+    width: 620px;
+    padding-right: 20px;
+    padding-bottom: 1em;
+    padding-top:0em;
+    background-color: white;
+    border: 1px solid silver;
+    -webkit-border-radius: 2px 2px 6px 6px;
+    -moz-border-radius: 2px 2px 6px 6px;
+    border-radius: 2px 2px 6px 6px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+}
+
+
+/* archive stuff */
+.archive li {
+    margin-left: 1em;
+    font-size: small;
+    color: black;
+}
+ /* Override some defaults */
  html, body {
-    /* 40px to make the container go all the way to the bottom of the topbar */
-    color:#666666;
+    background-color: #999999;    
 }
 body {
-    padding-top: 40px;
-    /* 40px to make the container go all the way to the bottom of the topbar */
     color:#666666;
     font: small Tahoma, Geneva, sans-serif;
 }
+/* general stuff */
+h2 {
+    color: #666666;
+}
+h3 {
+    color: #666666;
+}
+ul.posts, div.post {
+    margin: 0 0 18px 25px;
+}
+
+a {
+    color: #336699;
+    text-decoration: none;
+    line-height: inherit;
+    font-weight: inherit;
+}
+
+
+/* container stuff */
+
 .container > footer p {
     text-align: center;
     /* center align it with the container */
@@ -86,7 +123,8 @@ body {
 .container li {
     color: #666666;
 }
-/* Page header tweaks */
+
+/* Page header */
  .page-header {
     background-color: white;
 }
@@ -100,33 +138,4 @@ body {
 .topbar a {
     color: #white;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-}
-h2 {
-    color: #666666;
-}
-h3 {
-    color: #666666;
-}
-ul.posts, div.post {
-    margin: 0 0 18px 25px;
-}
-.left-side {
-    width: 620px;
-    padding-right: 20px;
-    padding-bottom: 1em;
-    padding-top:0em;
-    background-color: white;
-    border: 1px solid silver;
-    -webkit-border-radius: 2px 2px 6px 6px;
-    -moz-border-radius: 2px 2px 6px 6px;
-    border-radius: 2px 2px 6px 6px;
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
-    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
-}
-a {
-    color: #336699;
-    text-decoration: none;
-    line-height: inherit;
-    font-weight: inherit;
 }

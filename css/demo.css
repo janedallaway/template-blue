@@ -25,6 +25,14 @@
 	margin-bottom: 0.1em;
 }
 
+#sidebar h2 {
+	font-size: small;
+	font-weight: lighter;
+	color: black;
+	margin-left: 1em;
+	margin-bottom: 0.1em;
+}
+
 #sidebar ul, ul {
 	list-style: square;
 	margin: 0 0 18px 25px;

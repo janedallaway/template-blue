@@ -90,6 +90,11 @@ a {
     line-height: inherit;
     font-weight: inherit;
 }
+a:hover {
+  color: #336699;
+  text-decoration: underline;
+}
+
 /* container stuff */
  .container > footer p {
     text-align: center;
@@ -146,5 +151,5 @@ a {
 
 .topbar div > ul .active > a, .nav .active > a {
   background-color: white;
-  background-color: #336699;
+  background-color: #003366;
 }

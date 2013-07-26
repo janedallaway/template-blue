@@ -100,3 +100,8 @@ h2
 {
 	color: #666666;
 }
+
+ul.posts, div.post  
+{
+	margin: 0 0 18px 25px;
+}

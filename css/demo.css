@@ -116,7 +116,7 @@ body
         border: 0;
 }
 
-.topbar .fill
+.topbar-inner, .topbar .fill 
 {
 	background-color:#336699;
 	background-repeat: repeat-x;
@@ -124,11 +124,16 @@ body
 	background-repeat-y: no-repeat;
 }
 
-.topbar .container .nav
+
 {	
 	color:#666666;
 }
 
+.topbar a 
+{
+	color: #336699;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
 
 h2
 {

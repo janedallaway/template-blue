@@ -59,6 +59,8 @@ html, body
 body 
 {
         padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
+        color:#666666;
+	font: medium font-family: Tahoma, Geneva, sans-serif;
 }
 
 .container > footer p 
@@ -111,11 +113,16 @@ body
 {	
 	color:#666666;
 
-
 h2
 {
 	color: #666666;
 }
+
+h3
+{
+	color: #666666;
+}
+
 
 ul.posts, div.post  
 {
@@ -128,12 +135,6 @@ ul.posts, div.post
 	padding-right: 20px;
 	padding-bottom: 1em;
 	height: 100%;
-}
-
-body
-{
-	color:#666666;
-	font: medium font-family: Tahoma, Geneva, sans-serif;
 }
 
 a 

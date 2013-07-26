@@ -46,8 +46,9 @@
 }
 
 #sidebar img {
-	margin-left: 1em;
-	margin-bottom: 0.1em;
+	display: block;
+    	margin-left: auto;
+    	margin-right: auto
 }
 
  /* Override some defaults */

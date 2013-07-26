@@ -1,3 +1,5 @@
+/* colour pallete is 336699, 666666 and 999999 */
+
 /* right side panel*/
  .right-side {
     display: inline;
@@ -21,13 +23,13 @@
 .right-side h1 {
     font-size: large;
     font-weight: thick;
-    color: #666666;
+    color: #336699;
     text-align: center;
 }
 .right-side h2 {
     font-size: medium;
     font-weight: thick;
-    color: #666666;
+    color: #336699;
     padding-right: 0.5em;
     margin-left: 1.5em;
     text-align: center;

@@ -65,6 +65,7 @@ body
 .container > footer p 
 {
 	text-align: center; /* center align it with the container */
+	border-top: none;
 }
 
 /* The white background content wrapper */
@@ -79,6 +80,11 @@ body
         -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
         -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
         box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+.container > footer p 
+{
+	text-align: center; /* center align it with the container */	
 }
 
 /* Page header tweaks */
@@ -117,10 +123,4 @@ ul.posts, div.post
 	width: 620px;
 	padding-right: 20px;
 	padding-bottom: 1em;
-}
-
-.container > footer p 
-{
-	text-align: center; /* center align it with the container */
-	border-top: none;
 }

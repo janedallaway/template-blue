@@ -121,4 +121,5 @@ ul.posts, div.post
 .container > footer p 
 {
 	text-align: center; /* center align it with the container */
+	border-top: none;
 }

@@ -86,3 +86,11 @@ body
 {
         border: 0;
 }
+
+.fill
+{
+	background-color:#191970;
+	background-repeat: repeat-x;
+	background-repeat-x: repeat;
+	background-repeat-y: no-repeat;
+}

@@ -1,7 +1,8 @@
 #sidebar {
 	float: right;
 	width: 270px;
-	border: 1px solid silver;	
+	border: 1px solid silver;
+	background-color: white;
 	-webkit-border-radius: 2px 2px 6px 6px;
 	-moz-border-radius:  2px 2px 6px 6px;
 	border-radius: 2px 2px 6px 6px;
@@ -19,15 +20,15 @@
 
 #sidebar h1 {
 	font-size: medium;
-	font-weight: lighter;
+	font-weight: thick;
 	color: black;
 	margin-left: 1em;
 	margin-bottom: 0.1em;
 }
 
 #sidebar h2 {
-	font-size: small;
-	font-weight: lighter;
+	font-size: medium;
+	font-weight: thick;
 	color: black;
 	margin-left: 1em;
 	margin-bottom: 0.1em;
@@ -93,4 +94,9 @@ body
 	background-repeat: repeat-x;
 	background-repeat-x: repeat;
 	background-repeat-y: no-repeat;
+}
+
+h2
+{
+	color: #666666;
 }

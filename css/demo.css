@@ -63,10 +63,7 @@ body
 
 /* The white background content wrapper */
 .container > .content 
-{
-	float: left;
-	width: 660px;
-	border: 1px solid silver;
+{	
 	background-color: white;	
         padding: 20px;
         margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */

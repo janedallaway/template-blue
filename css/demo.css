@@ -95,8 +95,9 @@ a:hover {
   text-decoration: underline;
 }
 p {
-     text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
     line-height: 135%;
+    font: medium font-family: 'Roboto Slab', Tahoma, Geneva, sans-serif;
 }
 
 /* container stuff */

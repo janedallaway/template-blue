@@ -1,3 +1,5 @@
+/* @override http://jane.dallaway.com/css/demo.css */
+
 /* colour pallete is 336699, 666666 and 999999 */
 
 /* right side panel*/
@@ -27,7 +29,7 @@
     text-align: center;
 }
 .right-side h2 {
-    font-size: large;
+    font-size: medium;
     font-weight: bold;
     color: #336699;
     padding-right: 0.5em;
@@ -71,7 +73,8 @@
 }
 body {
     color:#666666;
-    font: medium font-family: 'Roboto Slab', Tahoma, Geneva, sans-serif;
+    font-size: medium;
+    font-family: 'Roboto Slab', Tahoma, Geneva, sans-serif;
     padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
 }
 /* general stuff */
@@ -97,8 +100,6 @@ a:hover {
 p {
     text-rendering: optimizeLegibility;
     line-height: 135%;
-    font-size:; medium;
-    font-family: Tahoma, Geneva, sans-serif;
 }
 
 /* container stuff */
@@ -144,7 +145,7 @@ p {
     background-image: -webkit-linear-gradient(top, #003366, #336699)
 }
 .topbar a {
-    color: #white;
+    color: #000;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 .topbar div > ul a:hover, .nav a:hover {

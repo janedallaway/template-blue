@@ -17,6 +17,7 @@
     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
     box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
 }
+
 .right-side p {
     font-size: small;
     padding-right: 0.5em;
@@ -32,25 +33,22 @@
     font-size: medium;
     font-weight: bold;
     color: #336699;
-    padding-right: 0.5em;
-    margin-left: 1.5em;
-    text-align: center;
-}
-.right-side ul li {
-    list-style-type: none;        
+    margin-left: 1em;
+    padding: 0;
 }
 .right-side img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1em;
 }
 /* left hand side */
  .left-side {
     width: 620px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 1em;
-    padding-top:0em;
+    padding-bottom: 20px;
+    padding-top:20px;
     background-color: white;
     border: 1px solid silver;
     -webkit-border-radius: 2px 2px 6px 6px;
@@ -61,12 +59,6 @@
     box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
 }
 
-/* archive stuff */
- .archive li {
-    margin-left: 1em;
-    font-size: small;
-    color: black;
-}
 /* Override some defaults */
  html, body {
     background-color: #999999;
@@ -131,10 +123,16 @@ p {
 }
 .container li {
     color: #666666;
+    font-size: 13px;
+    font-family: 'Roboto Slab', Tahoma, Geneva, sans-serif;
 }
 /* Page header */
  .page-header {
     background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top:10px;
 }
 .topbar .btn {
     border: 0;

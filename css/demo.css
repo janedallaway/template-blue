@@ -22,13 +22,13 @@
 }
 .right-side h1 {
     font-size: large;
-    font-weight: thick;
+    font-weight: bold;
     color: #336699;
     text-align: center;
 }
 .right-side h2 {
     font-size: medium;
-    font-weight: thick;
+    font-weight: bold;
     color: #336699;
     padding-right: 0.5em;
     margin-left: 1.5em;
@@ -97,7 +97,7 @@ a:hover {
 p {
     text-rendering: optimizeLegibility;
     line-height: 135%;
-    font: medium font-family: 'Roboto Slab', Tahoma, Geneva, sans-serif;
+    font: medium font-family: Tahoma, Geneva, sans-serif;
 }
 
 /* container stuff */
